@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/*boje*/
+/* h2 naslovi sekcija*/
+/* line 1, ../sass/base/_sekcijabase.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/base/_sekcijabase.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* line 14, ../sass/base/_sekcijabase.scss */
+.socialmenu {
+  text-align: right;
+  margin-right: 10px;
+}
+/* line 18, ../sass/base/_sekcijabase.scss */
+.socialmenu li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 8px 0 8px;
+  font-size: 1.25em;
+  height: 100%;
+}
+/* line 26, ../sass/base/_sekcijabase.scss */
+.socialmenu a {
+  color: red;
+}
+
+/* line 33, ../sass/base/_sekcijabase.scss */
+#logo {
+  margin-top: 5px;
+  margin-left: 7px;
+  max-width: 180px;
+}
+
+/* line 40, ../sass/base/_sekcijabase.scss */
+.search {
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+/* line 46, ../sass/base/_sekcijabase.scss */
+.naslov_sekcije {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  padding: 5px 0;
+}
+
+/* line 57, ../sass/base/_sekcijabase.scss */
+.article .thumbnail {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 62, ../sass/base/_sekcijabase.scss */
+.article .content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 67, ../sass/base/_sekcijabase.scss */
+.article .tema {
+  margin-top: 10px;
+}
+/* line 71, ../sass/base/_sekcijabase.scss */
+.article .tema a {
+  color: darkturquoise;
+  text-shadow: grey;
+  text-decoration: none;
+}
+/* line 77, ../sass/base/_sekcijabase.scss */
+.article .read_more a {
+  color: darkturquoise;
+  text-shadow: grey;
+  text-decoration: none;
+}
+/* line 82, ../sass/base/_sekcijabase.scss */
+.article h3 {
+  margin: -5px 0 10px;
+}
+/* line 85, ../sass/base/_sekcijabase.scss */
+.article .text {
+  padding: 0;
+}
+
+/* line 90, ../sass/base/_sekcijabase.scss */
+.read_more {
+  font-size: 14px;
+}
+
+/* line 93, ../sass/base/_sekcijabase.scss */
+.datum {
+  text-align: right;
+}
+
+/* line 100, ../sass/base/_sekcijabase.scss */
+h3 a {
+  color: black;
+  font-weight: 800;
+}
+/* line 105, ../sass/base/_sekcijabase.scss */
+h3 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 112, ../sass/base/_sekcijabase.scss */
+.contact {
+  background-color: ghostwhite;
+  color: darkslategrey;
+  padding: 15px 0 10px;
+  border-top: 1px solid #F2F2F2;
+}
+/* line 114, ../sass/base/_sekcijabase.scss */
+.contact h5 {
+  text-align: center;
+}
+/* line 123, ../sass/base/_sekcijabase.scss */
+.contact p {
+  text-align: center;
+  font-size: 0.8em;
+}
+/* line 127, ../sass/base/_sekcijabase.scss */
+.contact .tacka {
+  color: deeppink;
+}
+
+/* line 132, ../sass/base/_sekcijabase.scss */
+footer {
+  background-color: black;
+  color: gray;
+  font-size: 0.8em;
+  padding: 15px 0 5px;
+  text-align: center;
+}
+
+/* line 142, ../sass/base/_sekcijabase.scss */
+.newsletter {
+  display: none;
+}
+
+/* line 145, ../sass/base/_sekcijabase.scss */
+.ad {
+  display: none;
+}
+
+/* line 148, ../sass/base/_sekcijabase.scss */
+.search {
+  display: none;
+}
+
+/* line 152, ../sass/base/_sekcijabase.scss */
+.mob_search {
+  text-align: right;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+/* line 158, ../sass/base/_sekcijabase.scss */
+.mob_search .mob_form {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  margin-right: 10px;
+  background-color: #f9f9f9;
+}
+/* line 165, ../sass/base/_sekcijabase.scss */
+.mob_search .mob_button {
+  background-color: #f9f9f9;
+  border: none;
+}
+/* line 170, ../sass/base/_sekcijabase.scss */
+.mob_search input[type="text"]:focus {
+  outline: none;
+}
+
+/* line 176, ../sass/base/_sekcijabase.scss */
+.ghost {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 183, ../sass/base/_sekcijabase.scss */
+  .desk {
+    display: block;
+  }
+
+  /* line 186, ../sass/base/_sekcijabase.scss */
+  .newsletter {
+    display: block;
+  }
+
+  /* line 189, ../sass/base/_sekcijabase.scss */
+  .ad {
+    display: block;
+  }
+
+  /* line 192, ../sass/base/_sekcijabase.scss */
+  .media {
+    display: none;
+  }
+
+  /* line 195, ../sass/base/_sekcijabase.scss */
+  .mob_search {
+    display: none;
+  }
+
+  /* line 198, ../sass/base/_sekcijabase.scss */
+  .search {
+    display: block;
+  }
+
+  /* line 202, ../sass/base/_sekcijabase.scss */
+  .no_footer {
+    margin: 10px 5% 0;
+  }
+
+  /* line 209, ../sass/base/_sekcijabase.scss */
+  .socialmenu li {
+    padding: 10px 0 0 40px;
+  }
+
+  /* line 217, ../sass/base/_sekcijabase.scss */
+  .navbar {
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gainsboro;
+    margin: 0;
+  }
+  /* line 224, ../sass/base/_sekcijabase.scss */
+  .navbar #navbar-container {
+    margin-right: -40px;
+  }
+  /* line 228, ../sass/base/_sekcijabase.scss */
+  .navbar .navbar-nav {
+    float: right;
+    margin-top: 25px;
+  }
+
+  /* line 235, ../sass/base/_sekcijabase.scss */
+  .flexbox {
+    display: flex;
+  }
+
+  /* line 238, ../sass/base/_sekcijabase.scss */
+  .main {
+    max-width: 80%;
+  }
+
+  /* line 243, ../sass/base/_sekcijabase.scss */
+  .newsletter {
+    max-width: 17%;
+    margin-left: 3%;
+    margin-top: 80px;
+  }
+  /* line 249, ../sass/base/_sekcijabase.scss */
+  .newsletter p {
+    font-size: 0.8em;
+  }
+  /* line 252, ../sass/base/_sekcijabase.scss */
+  .newsletter h4 {
+    font-weight: 200;
+  }
+  /* line 255, ../sass/base/_sekcijabase.scss */
+  .newsletter .button {
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: none;
+  }
+  /* line 263, ../sass/base/_sekcijabase.scss */
+  .newsletter .input {
+    border-radius: 6px;
+  }
+  /* line 270, ../sass/base/_sekcijabase.scss */
+  .newsletter .ads .ad {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  /* line 279, ../sass/base/_sekcijabase.scss */
+  .newsletter .ads .one {
+    background-color: antiquewhite;
+  }
+  /* line 282, ../sass/base/_sekcijabase.scss */
+  .newsletter .ads .two {
+    background-color: #d0f0c0;
+  }
+  /* line 285, ../sass/base/_sekcijabase.scss */
+  .newsletter .ads .three {
+    background-color: aliceblue;
+  }
+  /* line 288, ../sass/base/_sekcijabase.scss */
+  .newsletter .ads .four {
+    background-color: lightyellow;
+  }
+
+  /* line 297, ../sass/base/_sekcijabase.scss */
+  .may {
+    display: flex;
+  }
+
+  /* line 301, ../sass/base/_sekcijabase.scss */
+  .april {
+    display: flex;
+  }
+  /* line 304, ../sass/base/_sekcijabase.scss */
+  .april .ghost {
+    display: block;
+    visibility: hidden;
+  }
+
+  /* line 312, ../sass/base/_sekcijabase.scss */
+  .figure {
+    padding: 10px 0;
+  }
+
+  /* line 316, ../sass/base/_sekcijabase.scss */
+  #logo {
+    max-width: 250px;
+    margin-left: -25px;
+  }
+
+  /* line 322, ../sass/base/_sekcijabase.scss */
+  .article .content {
+    margin: 0;
+  }
+
+  /* Search bar */
+  /* line 329, ../sass/base/_sekcijabase.scss */
+  .search {
+    text-align: right;
+    margin-top: 40px;
+  }
+  /* line 334, ../sass/base/_sekcijabase.scss */
+  .search .form {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    margin-right: 10px;
+    width: 12%;
+  }
+  /* line 340, ../sass/base/_sekcijabase.scss */
+  .search .button {
+    background-color: white;
+    border: none;
+  }
+  /* line 344, ../sass/base/_sekcijabase.scss */
+  .search input[type="text"]:focus {
+    outline: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 3, ../sass/base/_mqforbig.scss */
+  body p {
+    font-size: 1em;
+    line-height: 1.6em;
+    padding: 5px 0;
+  }
+  /* line 10, ../sass/base/_mqforbig.scss */
+  body .article .tema {
+    font-size: 1.1em;
+  }
+
+  /* line 19, ../sass/base/_mqforbig.scss */
+  .article h3 {
+    font-size: 1.7em;
+    line-height: 1.1em;
+  }
+
+  /* line 26, ../sass/base/_mqforbig.scss */
+  .contact {
+    font-size: 1.1em;
+  }
+  /* line 29, ../sass/base/_mqforbig.scss */
+  .contact h5 {
+    font-size: 1em;
+  }
+
+  /* line 35, ../sass/base/_mqforbig.scss */
+  .socialmenu a {
+    font-size: 1.1em;
+  }
+
+  /* line 41, ../sass/base/_mqforbig.scss */
+  .navbar-nav li {
+    font-size: 1.1em;
+  }
+
+  /* line 46, ../sass/base/_mqforbig.scss */
+  .newsletter {
+    font-size: 1.1em;
+  }
+  /* line 49, ../sass/base/_mqforbig.scss */
+  .newsletter h4 {
+    font-size: 1.2em;
+  }
+
+  /* line 53, ../sass/base/_mqforbig.scss */
+  .fa-search {
+    font-size: 1.1em;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* line 65, ../sass/base/_mqforbig.scss */
+  body p {
+    font-size: 1.2em;
+  }
+  /* line 68, ../sass/base/_mqforbig.scss */
+  body .tema {
+    font-size: 1.3em;
+  }
+  /* line 72, ../sass/base/_mqforbig.scss */
+  body .read_more {
+    font-size: 0.9em;
+  }
+
+  /* line 79, ../sass/base/_mqforbig.scss */
+  .article h3 {
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+
+  /* line 86, ../sass/base/_mqforbig.scss */
+  .socialmenu a {
+    font-size: 1.2em;
+  }
+
+  /* line 92, ../sass/base/_mqforbig.scss */
+  .navbar-nav li {
+    font-size: 1.2em;
+  }
+
+  /* line 97, ../sass/base/_mqforbig.scss */
+  .newsletter {
+    font-size: 1.2em;
+  }
+  /* line 100, ../sass/base/_mqforbig.scss */
+  .newsletter h4 {
+    font-size: 1.3em;
+  }
+
+  /* line 104, ../sass/base/_mqforbig.scss */
+  .fa-search {
+    font-size: 1.2em;
+  }
+}
+/* line 9, ../sass/Sekcija.scss */
+h1 {
+  font-weight: 200;
+  text-align: center;
+}
+
+/* line 15, ../sass/Sekcija.scss */
+h3 {
+  color: deeppink;
+  margin-left: 20px;
+  margin-bottom: -20px;
+  font-weight: 600;
+}
+
+/* line 23, ../sass/Sekcija.scss */
+.article {
+  margin-top: 30px;
+}
+/* line 26, ../sass/Sekcija.scss */
+.article h3 {
+  margin-bottom: 15px;
+}
+
+/* line 32, ../sass/Sekcija.scss */
+.months {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+/* line 37, ../sass/Sekcija.scss */
+.months .btn:hover {
+  background-color: white;
+}
+/* line 40, ../sass/Sekcija.scss */
+.months .btn:focus {
+  background-color: white;
+}
+
+/* line 45, ../sass/Sekcija.scss */
+#may, #april {
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 54, ../sass/Sekcija.scss */
+  .months {
+    justify-content: flex-start;
+    margin-top: -30px;
+  }
+
+  /* line 60, ../sass/Sekcija.scss */
+  h1 {
+    font-size: 2.8em;
+  }
+
+  /* line 65, ../sass/Sekcija.scss */
+  h3 {
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  /* line 73, ../sass/Sekcija.scss */
+  .article {
+    margin: 0 10px;
+  }
+  /* line 75, ../sass/Sekcija.scss */
+  .article h3 {
+    margin-top: -10px;
+  }
+
+  /* line 79, ../sass/Sekcija.scss */
+  .may, .april {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+  }
+
+  /* line 86, ../sass/Sekcija.scss */
+  #may, #april {
+    margin-left: 0;
+  }
+
+  /* line 89, ../sass/Sekcija.scss */
+  .newsletter {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* line 108, ../sass/Sekcija.scss */
+  h1 {
+    font-size: 3.2em;
+  }
+
+  /* line 112, ../sass/Sekcija.scss */
+  #may, #april {
+    font-size: 1.8em;
+  }
+
+  /* line 117, ../sass/Sekcija.scss */
+  .clanak_main {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
