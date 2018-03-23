@@ -5,11 +5,12 @@
 }
 
 body {
- 
+
     margin: 0;
     padding: 0;
     font-size: 16px;
 }
+
 
 .socialmenu {
     text-align: right;
@@ -24,7 +25,7 @@ body {
         
     }
     a {
-        color: red;
+        color: black;
     } 
 }
 
@@ -180,6 +181,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
     
+
+
     .desk {
     display: block;
 }
@@ -200,7 +203,7 @@ footer {
 }
     
     .no_footer {
-        margin: 10px 5% 0;
+        margin: 10px 10% 0;
     }
     
     .socialmenu {
