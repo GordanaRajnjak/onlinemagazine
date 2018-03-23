@@ -499,61 +499,61 @@ h3 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 54, ../sass/sekcija.scss */
+  /* line 56, ../sass/sekcija.scss */
   .months {
     justify-content: flex-start;
     margin-top: -30px;
   }
 
-  /* line 60, ../sass/sekcija.scss */
+  /* line 62, ../sass/sekcija.scss */
   h1 {
     font-size: 2.8em;
   }
 
-  /* line 65, ../sass/sekcija.scss */
+  /* line 67, ../sass/sekcija.scss */
   h3 {
     margin: 0;
     margin-left: 30px;
   }
 
-  /* line 73, ../sass/sekcija.scss */
+  /* line 75, ../sass/sekcija.scss */
   .article {
     margin: 0 10px;
   }
-  /* line 75, ../sass/sekcija.scss */
+  /* line 77, ../sass/sekcija.scss */
   .article h3 {
     margin-top: -10px;
   }
 
-  /* line 79, ../sass/sekcija.scss */
+  /* line 81, ../sass/sekcija.scss */
   .may, .april {
     margin-left: -10px;
     margin-right: -10px;
     padding: 0;
   }
 
-  /* line 86, ../sass/sekcija.scss */
+  /* line 88, ../sass/sekcija.scss */
   #may, #april {
     margin-left: 0;
   }
 
-  /* line 89, ../sass/sekcija.scss */
+  /* line 91, ../sass/sekcija.scss */
   .newsletter {
     margin-top: 20px;
   }
 }
 @media only screen and (min-width: 1920px) {
-  /* line 108, ../sass/sekcija.scss */
+  /* line 110, ../sass/sekcija.scss */
   h1 {
     font-size: 3.2em;
   }
 
-  /* line 112, ../sass/sekcija.scss */
+  /* line 114, ../sass/sekcija.scss */
   #may, #april {
     font-size: 1.8em;
   }
 
-  /* line 117, ../sass/sekcija.scss */
+  /* line 119, ../sass/sekcija.scss */
   .clanak_main {
     margin-left: 8%;
     margin-right: 8%;
