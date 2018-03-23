@@ -16,12 +16,12 @@ body {
   font-size: 16px;
 }
 
-/* line 14, ../sass/base/_sekcijabase.scss */
+/* line 15, ../sass/base/_sekcijabase.scss */
 .socialmenu {
   text-align: right;
   margin-right: 10px;
 }
-/* line 18, ../sass/base/_sekcijabase.scss */
+/* line 19, ../sass/base/_sekcijabase.scss */
 .socialmenu li {
   list-style-type: none;
   display: inline-block;
@@ -29,110 +29,110 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
-/* line 26, ../sass/base/_sekcijabase.scss */
+/* line 27, ../sass/base/_sekcijabase.scss */
 .socialmenu a {
-  color: red;
+  color: black;
 }
 
-/* line 33, ../sass/base/_sekcijabase.scss */
+/* line 34, ../sass/base/_sekcijabase.scss */
 #logo {
   margin-top: 5px;
   margin-left: 7px;
   max-width: 180px;
 }
 
-/* line 40, ../sass/base/_sekcijabase.scss */
+/* line 41, ../sass/base/_sekcijabase.scss */
 .search {
   padding-left: 15px;
   margin-top: 5px;
 }
 
-/* line 46, ../sass/base/_sekcijabase.scss */
+/* line 47, ../sass/base/_sekcijabase.scss */
 .naslov_sekcije {
   text-align: center;
   font-family: 'Pacifico', cursive;
   padding: 5px 0;
 }
 
-/* line 57, ../sass/base/_sekcijabase.scss */
+/* line 58, ../sass/base/_sekcijabase.scss */
 .article .thumbnail {
   max-width: 100%;
   padding: 0;
   margin: 0;
 }
-/* line 62, ../sass/base/_sekcijabase.scss */
+/* line 63, ../sass/base/_sekcijabase.scss */
 .article .content {
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 67, ../sass/base/_sekcijabase.scss */
+/* line 68, ../sass/base/_sekcijabase.scss */
 .article .tema {
   margin-top: 10px;
 }
-/* line 71, ../sass/base/_sekcijabase.scss */
+/* line 72, ../sass/base/_sekcijabase.scss */
 .article .tema a {
   color: darkturquoise;
   text-shadow: grey;
   text-decoration: none;
 }
-/* line 77, ../sass/base/_sekcijabase.scss */
+/* line 78, ../sass/base/_sekcijabase.scss */
 .article .read_more a {
   color: darkturquoise;
   text-shadow: grey;
   text-decoration: none;
 }
-/* line 82, ../sass/base/_sekcijabase.scss */
+/* line 83, ../sass/base/_sekcijabase.scss */
 .article h3 {
   margin: -5px 0 10px;
 }
-/* line 85, ../sass/base/_sekcijabase.scss */
+/* line 86, ../sass/base/_sekcijabase.scss */
 .article .text {
   padding: 0;
 }
 
-/* line 90, ../sass/base/_sekcijabase.scss */
+/* line 91, ../sass/base/_sekcijabase.scss */
 .read_more {
   font-size: 14px;
 }
 
-/* line 93, ../sass/base/_sekcijabase.scss */
+/* line 94, ../sass/base/_sekcijabase.scss */
 .datum {
   text-align: right;
 }
 
-/* line 100, ../sass/base/_sekcijabase.scss */
+/* line 101, ../sass/base/_sekcijabase.scss */
 h3 a {
   color: black;
   font-weight: 800;
 }
-/* line 105, ../sass/base/_sekcijabase.scss */
+/* line 106, ../sass/base/_sekcijabase.scss */
 h3 a:hover {
   color: black;
   text-decoration: none;
 }
 
-/* line 112, ../sass/base/_sekcijabase.scss */
+/* line 113, ../sass/base/_sekcijabase.scss */
 .contact {
   background-color: ghostwhite;
   color: darkslategrey;
   padding: 15px 0 10px;
   border-top: 1px solid #F2F2F2;
 }
-/* line 114, ../sass/base/_sekcijabase.scss */
+/* line 115, ../sass/base/_sekcijabase.scss */
 .contact h5 {
   text-align: center;
 }
-/* line 123, ../sass/base/_sekcijabase.scss */
+/* line 124, ../sass/base/_sekcijabase.scss */
 .contact p {
   text-align: center;
   font-size: 0.8em;
 }
-/* line 127, ../sass/base/_sekcijabase.scss */
+/* line 128, ../sass/base/_sekcijabase.scss */
 .contact .tacka {
   color: deeppink;
 }
 
-/* line 132, ../sass/base/_sekcijabase.scss */
+/* line 133, ../sass/base/_sekcijabase.scss */
 footer {
   background-color: black;
   color: gray;
@@ -141,92 +141,92 @@ footer {
   text-align: center;
 }
 
-/* line 142, ../sass/base/_sekcijabase.scss */
+/* line 143, ../sass/base/_sekcijabase.scss */
 .newsletter {
   display: none;
 }
 
-/* line 145, ../sass/base/_sekcijabase.scss */
+/* line 146, ../sass/base/_sekcijabase.scss */
 .ad {
   display: none;
 }
 
-/* line 148, ../sass/base/_sekcijabase.scss */
+/* line 149, ../sass/base/_sekcijabase.scss */
 .search {
   display: none;
 }
 
-/* line 152, ../sass/base/_sekcijabase.scss */
+/* line 153, ../sass/base/_sekcijabase.scss */
 .mob_search {
   text-align: right;
   margin-bottom: 20px;
   padding-right: 20px;
   width: 100%;
 }
-/* line 158, ../sass/base/_sekcijabase.scss */
+/* line 159, ../sass/base/_sekcijabase.scss */
 .mob_search .mob_form {
   border: none;
   border-bottom: 1px solid gainsboro;
   margin-right: 10px;
   background-color: #f9f9f9;
 }
-/* line 165, ../sass/base/_sekcijabase.scss */
+/* line 166, ../sass/base/_sekcijabase.scss */
 .mob_search .mob_button {
   background-color: #f9f9f9;
   border: none;
 }
-/* line 170, ../sass/base/_sekcijabase.scss */
+/* line 171, ../sass/base/_sekcijabase.scss */
 .mob_search input[type="text"]:focus {
   outline: none;
 }
 
-/* line 176, ../sass/base/_sekcijabase.scss */
+/* line 177, ../sass/base/_sekcijabase.scss */
 .ghost {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 183, ../sass/base/_sekcijabase.scss */
+  /* line 186, ../sass/base/_sekcijabase.scss */
   .desk {
     display: block;
   }
 
-  /* line 186, ../sass/base/_sekcijabase.scss */
+  /* line 189, ../sass/base/_sekcijabase.scss */
   .newsletter {
     display: block;
   }
 
-  /* line 189, ../sass/base/_sekcijabase.scss */
+  /* line 192, ../sass/base/_sekcijabase.scss */
   .ad {
     display: block;
   }
 
-  /* line 192, ../sass/base/_sekcijabase.scss */
+  /* line 195, ../sass/base/_sekcijabase.scss */
   .media {
     display: none;
   }
 
-  /* line 195, ../sass/base/_sekcijabase.scss */
+  /* line 198, ../sass/base/_sekcijabase.scss */
   .mob_search {
     display: none;
   }
 
-  /* line 198, ../sass/base/_sekcijabase.scss */
+  /* line 201, ../sass/base/_sekcijabase.scss */
   .search {
     display: block;
   }
 
-  /* line 202, ../sass/base/_sekcijabase.scss */
+  /* line 205, ../sass/base/_sekcijabase.scss */
   .no_footer {
-    margin: 10px 5% 0;
+    margin: 10px 10% 0;
   }
 
-  /* line 209, ../sass/base/_sekcijabase.scss */
+  /* line 212, ../sass/base/_sekcijabase.scss */
   .socialmenu li {
     padding: 10px 0 0 40px;
   }
 
-  /* line 217, ../sass/base/_sekcijabase.scss */
+  /* line 220, ../sass/base/_sekcijabase.scss */
   .navbar {
     background-color: white;
     border: none;
@@ -234,41 +234,41 @@ footer {
     border-bottom: 1px solid gainsboro;
     margin: 0;
   }
-  /* line 224, ../sass/base/_sekcijabase.scss */
+  /* line 227, ../sass/base/_sekcijabase.scss */
   .navbar #navbar-container {
     margin-right: -40px;
   }
-  /* line 228, ../sass/base/_sekcijabase.scss */
+  /* line 231, ../sass/base/_sekcijabase.scss */
   .navbar .navbar-nav {
     float: right;
     margin-top: 25px;
   }
 
-  /* line 235, ../sass/base/_sekcijabase.scss */
+  /* line 238, ../sass/base/_sekcijabase.scss */
   .flexbox {
     display: flex;
   }
 
-  /* line 238, ../sass/base/_sekcijabase.scss */
+  /* line 241, ../sass/base/_sekcijabase.scss */
   .main {
     max-width: 80%;
   }
 
-  /* line 243, ../sass/base/_sekcijabase.scss */
+  /* line 246, ../sass/base/_sekcijabase.scss */
   .newsletter {
     max-width: 17%;
     margin-left: 3%;
     margin-top: 80px;
   }
-  /* line 249, ../sass/base/_sekcijabase.scss */
+  /* line 252, ../sass/base/_sekcijabase.scss */
   .newsletter p {
     font-size: 0.8em;
   }
-  /* line 252, ../sass/base/_sekcijabase.scss */
+  /* line 255, ../sass/base/_sekcijabase.scss */
   .newsletter h4 {
     font-weight: 200;
   }
-  /* line 255, ../sass/base/_sekcijabase.scss */
+  /* line 258, ../sass/base/_sekcijabase.scss */
   .newsletter .button {
     background-color: black;
     color: white;
@@ -277,11 +277,11 @@ footer {
     border-radius: 6px;
     border: none;
   }
-  /* line 263, ../sass/base/_sekcijabase.scss */
+  /* line 266, ../sass/base/_sekcijabase.scss */
   .newsletter .input {
     border-radius: 6px;
   }
-  /* line 270, ../sass/base/_sekcijabase.scss */
+  /* line 273, ../sass/base/_sekcijabase.scss */
   .newsletter .ads .ad {
     height: 150px;
     width: 100%;
@@ -290,73 +290,73 @@ footer {
     justify-content: center;
     margin-top: 80px;
   }
-  /* line 279, ../sass/base/_sekcijabase.scss */
+  /* line 282, ../sass/base/_sekcijabase.scss */
   .newsletter .ads .one {
     background-color: antiquewhite;
   }
-  /* line 282, ../sass/base/_sekcijabase.scss */
+  /* line 285, ../sass/base/_sekcijabase.scss */
   .newsletter .ads .two {
     background-color: #d0f0c0;
   }
-  /* line 285, ../sass/base/_sekcijabase.scss */
+  /* line 288, ../sass/base/_sekcijabase.scss */
   .newsletter .ads .three {
     background-color: aliceblue;
   }
-  /* line 288, ../sass/base/_sekcijabase.scss */
+  /* line 291, ../sass/base/_sekcijabase.scss */
   .newsletter .ads .four {
     background-color: lightyellow;
   }
 
-  /* line 297, ../sass/base/_sekcijabase.scss */
+  /* line 300, ../sass/base/_sekcijabase.scss */
   .may {
     display: flex;
   }
 
-  /* line 301, ../sass/base/_sekcijabase.scss */
+  /* line 304, ../sass/base/_sekcijabase.scss */
   .april {
     display: flex;
   }
-  /* line 304, ../sass/base/_sekcijabase.scss */
+  /* line 307, ../sass/base/_sekcijabase.scss */
   .april .ghost {
     display: block;
     visibility: hidden;
   }
 
-  /* line 312, ../sass/base/_sekcijabase.scss */
+  /* line 315, ../sass/base/_sekcijabase.scss */
   .figure {
     padding: 10px 0;
   }
 
-  /* line 316, ../sass/base/_sekcijabase.scss */
+  /* line 319, ../sass/base/_sekcijabase.scss */
   #logo {
     max-width: 250px;
     margin-left: -25px;
   }
 
-  /* line 322, ../sass/base/_sekcijabase.scss */
+  /* line 325, ../sass/base/_sekcijabase.scss */
   .article .content {
     margin: 0;
   }
 
   /* Search bar */
-  /* line 329, ../sass/base/_sekcijabase.scss */
+  /* line 332, ../sass/base/_sekcijabase.scss */
   .search {
     text-align: right;
     margin-top: 40px;
   }
-  /* line 334, ../sass/base/_sekcijabase.scss */
+  /* line 337, ../sass/base/_sekcijabase.scss */
   .search .form {
     border: none;
     border-bottom: 1px solid gainsboro;
     margin-right: 10px;
     width: 12%;
   }
-  /* line 340, ../sass/base/_sekcijabase.scss */
+  /* line 343, ../sass/base/_sekcijabase.scss */
   .search .button {
     background-color: white;
     border: none;
   }
-  /* line 344, ../sass/base/_sekcijabase.scss */
+  /* line 347, ../sass/base/_sekcijabase.scss */
   .search input[type="text"]:focus {
     outline: none;
   }
@@ -456,12 +456,12 @@ footer {
     font-size: 1.2em;
   }
 }
-/* line 7, ../sass/Contact.scss */
+/* line 7, ../sass/contact.scss */
 .photo_main {
   margin-top: -30px;
 }
 
-/* line 12, ../sass/Contact.scss */
+/* line 12, ../sass/contact.scss */
 h1 {
   text-align: center;
   color: white;
@@ -471,7 +471,7 @@ h1 {
   margin-top: -90px;
 }
 
-/* line 25, ../sass/Contact.scss */
+/* line 25, ../sass/contact.scss */
 .text {
   margin-top: 60px;
   padding-left: 20px;
@@ -482,12 +482,12 @@ h1 {
   margin-right: 20%;
   padding-bottom: 20px;
 }
-/* line 36, ../sass/Contact.scss */
+/* line 36, ../sass/contact.scss */
 .text .strong {
   font-weight: 900;
 }
 
-/* line 41, ../sass/Contact.scss */
+/* line 41, ../sass/contact.scss */
 h2 {
   text-transform: uppercase;
   font-size: 1em;
@@ -495,7 +495,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 47, ../sass/Contact.scss */
+/* line 47, ../sass/contact.scss */
 .office {
   text-align: center;
   margin-bottom: 40px;
@@ -505,55 +505,55 @@ h2 {
   padding-top: 20px;
 }
 
-/* line 60, ../sass/Contact.scss */
+/* line 60, ../sass/contact.scss */
 .all_contact {
   margin-bottom: 70px;
 }
 
-/* line 63, ../sass/Contact.scss */
+/* line 63, ../sass/contact.scss */
 .icons {
   padding-right: 5px;
 }
 
-/* line 67, ../sass/Contact.scss */
+/* line 67, ../sass/contact.scss */
 #map {
   max-width: 100%;
   height: 200px;
   background: grey;
 }
 
-/* line 74, ../sass/Contact.scss */
+/* line 74, ../sass/contact.scss */
 #text_headline {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 81, ../sass/Contact.scss */
+  /* line 81, ../sass/contact.scss */
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  /* line 87, ../sass/Contact.scss */
+  /* line 87, ../sass/contact.scss */
   body {
     margin: 0;
     padding: 0;
     max-width: 100%;
   }
 
-  /* line 93, ../sass/Contact.scss */
+  /* line 93, ../sass/contact.scss */
   #text_headline {
     display: block;
   }
 
-  /* line 98, ../sass/Contact.scss */
+  /* line 98, ../sass/contact.scss */
   .photo_main {
     margin: 0;
     padding: 0;
   }
 
-  /* line 103, ../sass/Contact.scss */
+  /* line 103, ../sass/contact.scss */
   .text {
     margin: 0;
     margin-left: 2%;
@@ -564,14 +564,14 @@ h2 {
     line-height: 2em;
   }
 
-  /* line 113, ../sass/Contact.scss */
+  /* line 113, ../sass/contact.scss */
   #text_headline {
     margin-bottom: 80px;
     font-weight: 900;
     font-size: 1.5em;
   }
 
-  /* line 118, ../sass/Contact.scss */
+  /* line 118, ../sass/contact.scss */
   .img_text {
     display: flex;
     max-width: 100%;
@@ -580,7 +580,7 @@ h2 {
     margin-right: auto;
   }
 
-  /* line 125, ../sass/Contact.scss */
+  /* line 125, ../sass/contact.scss */
   .figure {
     max-width: 100%;
     margin: 0;
@@ -588,7 +588,7 @@ h2 {
     position: relative;
   }
 
-  /* line 131, ../sass/Contact.scss */
+  /* line 131, ../sass/contact.scss */
   h1 {
     font-size: 2em;
     margin: 0;
@@ -598,14 +598,14 @@ h2 {
     width: 200px;
   }
 
-  /* line 142, ../sass/Contact.scss */
+  /* line 142, ../sass/contact.scss */
   .all_contact {
     display: flex;
     justify-content: center;
     margin-top: 20px;
   }
 
-  /* line 150, ../sass/Contact.scss */
+  /* line 150, ../sass/contact.scss */
   .office {
     margin: 0;
     border: none;
@@ -614,12 +614,12 @@ h2 {
     margin-top: 80px;
     border-bottom: 1px solid gainsboro;
   }
-  /* line 157, ../sass/Contact.scss */
+  /* line 157, ../sass/contact.scss */
   .office h2 {
     padding-bottom: 10px;
   }
 
-  /* line 167, ../sass/Contact.scss */
+  /* line 167, ../sass/contact.scss */
   #map {
     max-width: 100%;
     height: 400px;
@@ -627,7 +627,7 @@ h2 {
   }
 }
 @media only screen and (min-width: 1000px) {
-  /* line 179, ../sass/Contact.scss */
+  /* line 179, ../sass/contact.scss */
   h1 {
     width: 300px;
     top: 200px;
@@ -636,7 +636,7 @@ h2 {
   }
 }
 @media only screen and (min-width: 1440px) {
-  /* line 188, ../sass/Contact.scss */
+  /* line 188, ../sass/contact.scss */
   h1 {
     width: 300px;
     top: 230px;
@@ -644,51 +644,51 @@ h2 {
     font-size: 3em;
   }
 
-  /* line 194, ../sass/Contact.scss */
+  /* line 194, ../sass/contact.scss */
   #text_headline {
     font-size: 1.5em;
   }
 
-  /* line 198, ../sass/Contact.scss */
+  /* line 198, ../sass/contact.scss */
   h2 {
     font-size: 1.2em;
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 204, ../sass/Contact.scss */
+  /* line 204, ../sass/contact.scss */
   .img_text {
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  /* line 208, ../sass/Contact.scss */
+  /* line 208, ../sass/contact.scss */
   .text {
     margin-left: 5%;
   }
 }
 @media only screen and (min-width: 1920px) {
-  /* line 215, ../sass/Contact.scss */
+  /* line 215, ../sass/contact.scss */
   .img_text {
     margin-left: 15%;
     margin-right: 15%;
   }
 
-  /* line 219, ../sass/Contact.scss */
+  /* line 219, ../sass/contact.scss */
   .text {
     margin-left: 10%;
   }
 
-  /* line 222, ../sass/Contact.scss */
+  /* line 222, ../sass/contact.scss */
   #text_headline {
     font-size: 1.8em;
   }
 
-  /* line 225, ../sass/Contact.scss */
+  /* line 225, ../sass/contact.scss */
   h2 {
     font-size: 1.3em;
   }
 
-  /* line 228, ../sass/Contact.scss */
+  /* line 228, ../sass/contact.scss */
   #office_headline {
     font-size: 1.5em;
   }
