@@ -5,7 +5,6 @@
 
 
 
-
 .carousel-control.left, .carousel-control.right {
     background-image: none;
     padding: 0 20px;
@@ -40,9 +39,6 @@
         text-shadow: grey;
         text-decoration: none;
         font-size: 0.9em;
-    }
-    h3 {
-      color: red;
     }
 }
 
@@ -80,6 +76,7 @@
 
 @media only screen and (min-width: 768px) {
     
+
     .hr {
     display: block;
 }
